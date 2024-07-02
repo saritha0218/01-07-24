@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightpink;
+        }
+
+        h1{
+            border: 5px solid rgb(229, 17, 84);
+            padding: 50px;
+            margin: 50px;
+        }
+        
+        .show{
+            display: flex;
+            justify-content: center;
+            margin: 50px;
+            margin-top: 1px;
+
+        }
+        img{
+            width: 350px;
+            height: 350px;
+            margin-left: 100px;
+            margin-top: 250px;
+            display: none;
+            position: absolute;
+            border: 5px solid rgb(229, 17, 84);
+            padding: 35px;
+        }
+           
+        h1:hover + img {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="show">
+        
+            <h1 id="Cat">Cat</h1>
+            <img src="./cat.jpeg">
+    
+            <h1 id="Dog">Dog</h1>
+            <img src="./dog.jpeg">
+        
+            <h1 id="Rabbit">Rabbit</h1>
+            <img src="./rabbit.jpeg">
+       
+            <h1 id="Birds">Birds</h1>
+            <img src="./birds.jpeg">
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            font-family: cursive;
+            text-align: center;
+            font-size: 50px;
+        }
+
+        body{
+            background-color: gray;
+        }
+
+        .dis{
+            border: 2px solid black;
+            margin: 50px;
+            padding: 50px;
+            background-color: cornflowerblue;
+        }
+        
+        .animals{
+            height: 400px;
+            width: 400px;
+            border: 3px solid black;
+            background-color: darksalmon;
+            display: inline-block;
+            margin-left: 200px;
+            margin-bottom: 100px;
+            margin-top: 50px;
+        }
+
+        p{
+            position: absolute;
+            display: none;
+            margin-left: 150px;
+            margin-top: 20px;
+            font-weight: bold;
+            font-size: 50px;
+        }
+        
+        .AB{
+            margin-left: 65px;
+        }
+
+        .R{
+            margin-left: 120px;
+        }
+        img{
+            display: none ;
+            width: 250px;
+            height: 250px;
+            margin-top: 100px;
+            margin-left: 70px;
+        }
+
+        div:hover > p{
+            display: block;
+        }
+
+        .animals:active img{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+     <h1>Cute Animals</h1>
+
+    <div class="dis">
+
+        <div class="animals">
+            <p>Cat</p>
+            <img src="./cat.jpeg">
+        </div>
+
+        <div class="animals">
+            <p>Dog</p>
+            <img src="./dog.jpeg">
+        </div>
+        
+        <div class="animals">
+            <p class="R">Rabbit</p>
+            <img src="./rabbit.jpeg">
+        </div>
+        
+        <div class="animals">
+            <p class="AB"> Angry Birds</p>
+            <img src="./birds.jpeg">
+        </div>
+        
+    </div>
+</body> 
+</html>
